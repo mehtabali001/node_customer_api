@@ -1,0 +1,29 @@
+{
+  "name": "Task-1-API",
+  "version": "2.0.0",
+  "description": "Teletaleem task One",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.3",
+    "mongo-connect": "0.0.6",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "nodemon": "^1.18.9"
+  },
+  "proxy": "http://localhost:5000"
+}
